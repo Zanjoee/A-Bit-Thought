@@ -128,7 +128,7 @@ function letGo() {
         "Your worries will pass, like a storm breaking into sunlight",
         "Let go. Breathe. You are allowed to find peace",
         "No matter how lost you feel, life continues as it always does",
-        "You are more than this moment. You are more than enough",
+        "You are more than this thought. You are more than enough.",
     ];
     
     let currentPhraseIndex = 0;
@@ -180,11 +180,12 @@ function showFinalMessage() {
         messageElement.style.opacity = '0';
         messageElement.style.transition = 'opacity 5s ease';
         messageElement.style.textAlign = 'center';
+        messageElement.style.margintop = '-5rem'
         container.appendChild(messageElement);
         
         // Add restart button
         let restartBtn = document.createElement('button');
-        restartBtn.textContent = 'Release Another Thought';
+        restartBtn.textContent = 'Let Go Another Thought';
         restartBtn.classList.add('restart-btn');
         restartBtn.style.opacity = '0';
         restartBtn.style.transition = 'opacity 3s ease';
