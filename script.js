@@ -175,7 +175,7 @@ function showFinalMessage() {
         // Create final message
         let messageElement = document.createElement('p');
         messageElement.innerHTML = `
-             Padayon katoto! - Zz 
+             Padayon katoto!
         `;
         messageElement.style.opacity = '0';
         messageElement.style.transition = 'opacity 5s ease';
